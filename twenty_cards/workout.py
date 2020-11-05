@@ -1,4 +1,4 @@
-from deck import draw_cards
+from .deck import draw_cards
 from itertools import cycle
 
 exercises = {
@@ -26,7 +26,7 @@ def calculate_set(suit, number):
     elif number != 'A':
         reps = 20
     else:
-        return "2' Rest"
+        return 2, "1' Rest"
     return (reps, next(exercises[suit]))
 
-workout = lambda n: ((s, calculate_set(*s)) for s in draw_cards(n))
+workout = lambda n=20: ((s, calculate_set(*s)) for s in draw_cards(n))
