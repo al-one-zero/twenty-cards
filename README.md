@@ -13,8 +13,8 @@ cd twenty-cards
 
 2. Make virtual environment and install dependencies
 ```bash
-$ virtualenv env
-$ pip install -r requirements.txt
+virtualenv env
+pip install -r requirements.txt
 ```
 
 3. Declare Flask app and run
