@@ -6,7 +6,7 @@ This project is currently in progress.
 
 ## Installation
 1. Clone the repo
-````bash
+```bash
 git clone https://github.com/al-one-zero/twenty-cards
 cd twenty-cards
 ```
